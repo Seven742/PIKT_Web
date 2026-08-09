@@ -2,14 +2,14 @@ import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import MainLayout from "../layouts/MainLayout"
 
-import Home from "../Page/Home"
-import About from "../Page/About"
-import Courses from "../Page/Courses"
-import Contact from "../Page/Contact"
-import NotFound from "../Page/NotFound"
-import Historys from '../Page/Historys'
-import Teachers from '../Page/Teachers'
-import Licenses from '../Page/Licenses'
+import Home from "../components/Home/Hero"
+import About from "../components/Home/About"
+import Courses from "../components/Home/Courses"
+import Contact from "../components/Home/Contact"
+import NotFound from "../components/Home/NotFound"
+import Historys from '../components/Home/History'
+import Teachers from '../components/Home/Teacher'
+import Licenses from '../components/Home/License'
 
 
 const AppRoutes = () => {

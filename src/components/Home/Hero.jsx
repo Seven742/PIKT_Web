@@ -9,7 +9,7 @@ import School2 from "../../assets/School/School2.JPG"
 import School3 from "../../assets/School/School3.JPG"
 
 const slides = [
-  { img: School,  title: "ស្វាគមន៍មកកាន់ PIKT", sub: "ផ្ដល់ការអប់រំបច្ចេកទេស និងវិជ្ជាជីវៈ ដ៏ល្អប្រសើរ" },
+  { img: School, title: "ស្វាគមន៍មកកាន់ PIKT", sub: "ផ្ដល់ការអប់រំបច្ចេកទេស និងវិជ្ជាជីវៈ ដ៏ល្អប្រសើរ" },
   { img: School1, title: "ការអប់រំបច្ចេកទេស", sub: "Technical & Vocational Education for Cambodia's Future" },
   { img: School2, title: "ពង្រឹងសមត្ថភាពធនធានមនុស្ស", sub: "Empowering Youth Through Quality Education" },
   { img: School3, title: "ជំរុញការអភិវឌ្ឍន៍ខេត្ត", sub: "Driving Sustainable Development in Kampong Thom" },
@@ -54,11 +54,11 @@ const Hero = () => {
         <div className="absolute inset-0 flex items-center xl:px-40 px-6">
           <div className="max-w-2xl text-white">
             <p className="font-battambang text-blue-300 text-sm mb-3 tracking-widest uppercase">
-              វិទ្យាស្ថានបច្ចេកទេស កំពង់ធំ
+              វិទ្យាស្ថានពហុបច្ចេកទេស ​ខេត្តកំពង់ធំ
             </p>
             {slides.map((s, i) => (
               <div key={i} className={`transition-all duration-700 ${i === current ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4 absolute'}`}>
-                <h1 className="font-moul text-3xl md:text-4xl xl:text-5xl leading-relaxed mb-4">{s.title}</h1>
+                <h1 className="font-moul text-3xl md:text-4xl xl:text-5xl leading-relaxed mb-7 mt-7 ">{s.title}</h1>
                 <p className="font-battambang text-lg text-gray-200 mb-8">{s.sub}</p>
               </div>
             ))}
@@ -116,7 +116,7 @@ const Hero = () => {
           <div>
             <p className="font-battambang text-primary text-sm uppercase tracking-widest mb-3">អំពីស្ថាប័ន</p>
             <h2 className="font-moul text-primary text-2xl xl:text-3xl leading-relaxed mb-5">
-              វិទ្យាស្ថានបច្ចេកទេស<br />កំពង់ធំ (PIKT)
+              វិទ្យាស្ថានពហុបច្ចេកទេស<br />​​ខេត្តកំពង់ធំ (PIKT)
             </h2>
             <p className="font-battambang text-gray-600 leading-loose mb-4">
               វិទ្យាស្ថានបច្ចេកទេស កំពង់ធំ (PIKT) ត្រូវបានបង្កើតឡើង នៅថ្ងៃទី ១១ ខែមិថុនា ឆ្នាំ ២០០១ ដោយការគាំទ្រ ហិរញ្ញវត្ថុពីធនាគារអភិវឌ្ឍន៍អាស៊ី (ADB) ក្នុងគោលដៅ ផ្ដល់ការអប់រំបច្ចេកទេស និងវិជ្ជាជីវៈ ដ៏ល្អប្រសើរ
@@ -135,7 +135,7 @@ const Hero = () => {
             <img src={School1} alt="PIKT" className="rounded-xl object-cover h-52 w-full" />
             <img src={School2} alt="PIKT" className="rounded-xl object-cover h-52 w-full mt-6" />
             <img src={School3} alt="PIKT" className="rounded-xl object-cover h-52 w-full -mt-3" />
-            <img src={School}  alt="PIKT" className="rounded-xl object-cover h-52 w-full mt-3" />
+            <img src={School} alt="PIKT" className="rounded-xl object-cover h-52 w-full mt-3" />
           </div>
         </div>
       </div>

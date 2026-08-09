@@ -80,8 +80,8 @@ const Navbar = () => {
           <Link to="/" className="flex items-center gap-3 shrink-0">
             <img src={Logo} alt="PIKT" className="h-14 w-14 object-contain" />
             <div className="hidden sm:block">
-              <p className="font-moul text-primary text-sm leading-tight">វិទ្យាស្ថានបច្ចេកទេស</p>
-              <p className="font-moul text-primary text-sm">កំពង់ធំ (PIKT)</p>
+              <p className="font-moul text-primary text-sm leading-tight">វិទ្យាស្ថានពហុបច្ចេកទេស</p>
+              <p className="font-moul text-primary text-sm">ខេត្កកំពង់ធំ (PIKT)</p>
             </div>
           </Link>
 
